@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    height:100px ;
+    width: 100%;
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-rows: auto ;
+    grid-template-columns:
+    " header header"
+    " aside main" 
+    " footer footer";
+    gap: 0%;
+}
+aside{
+
+    margin-top: 100px;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+}
+header{
+    grid-area: header;
+    font-family: 'Imprima', sans-serif;
+    height: 100px;
+    display: flex;
+    position: center;
+    gap: 110px;
+    align-items: center;
+}
+main{
+    grid-area: main;
+    margin-left: 700px;
+    top: 0px;
+    margin-top: 10px;
+    height: 400px;
+    width: 500px;
+    gap: 0px;
+
+}
+footer{
+    grid-area: footer;
+    height: 100px;
+    width: 100%;
+    gap: 1px;
+    display: flex;
+   
+}
+.logo{
+    font-family: 'Imprima', sans-serif;
+    width: 300px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+p{
+    align-items: center;
+}
+.lupa{
+    margin-right: 10px;
+}
+.insta{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.face{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.tw{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+nav{
+   margin-left: 1000px ;
+   margin-top: 50px;
+   align-items: center;
+   gap: 10px;
+}
+.t{
+    font-family: 'Gotu', sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.titulo{
+    font-family: 'Imprima', sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+.texto{
+    margin-left: 30px;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    gap: 100px;
+    width:450px;
+}
+p:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.insta:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.face:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.tw:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.navegar:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.pratomeio{
+    margin-left: 650px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 35px;
+    transform: translate(-0% -50%);
+ 
+}
+.pratoalto{
+    width: 160px;
+    height: 160px;
+    margin-left: 400px;
+    left: 10px;
+    transform: translate(-0% -50%);
+    
+}
+.pratobaixo{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+.pratomeio:hover{
+    transform: rotate(2deg)
+
+}
+.pratobaixo:hover{
+    transform: rotate(2deg)
+   
+}
+.pratoalto:hover{
+    transform: rotate(2deg)
+
+}
+.lupa:hover{
+    transform: rotate(deg)
+}
+.botao{
+    background-color: rgb(104, 123, 153);
+    font-family: 'Imprima', sans-serif;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 60px;
+    height: 30px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.botao1{
+    color: white;
+}
+.botao:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
